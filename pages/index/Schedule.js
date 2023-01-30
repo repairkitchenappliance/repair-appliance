@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+
 const Schedule = () => {
     return (
         <div className="flex items-center justify-between flex-col-reverse md:flex-row  mx-6 sm:mx-8 md:mx-20 py-20">
@@ -21,14 +22,14 @@ const Schedule = () => {
                     importance of getting your broken appliances fixed as soon as
                     possible.
                 </p>
-                <div className="mt-4">
+                {/* <div className="mt-4">
                     <button className="bg-blue-500 px-5 py-1 text-white font-medium border-2 border-blue-500">
                         CALL NOW
                     </button>
                     <button className="px-5 py-1 font-medium border-2 border-blue-500 text-blue-500">
                         BOOK NOW
                     </button>
-                </div>
+                </div> */}
             </div>
             <div className="flex justify-center items-center w-full">
                 <div className='flex flex-col bg-white shadow-md py-6 px-4 border border-gray-400 w-full sm:mx-8 md:mx-32'>

@@ -9,7 +9,7 @@ import Schedule from "../pages/index/Schedule";
 import Testemonial from "../pages/index/Testemonial";
 import Counter from "../pages/index/Counters";
 import Contact from "../pages/index/Contact";
-import Calls from "../pages/index/Calls";
+
 const Home: NextPage = () => {
   return (
     <>
@@ -34,7 +34,6 @@ const Home: NextPage = () => {
       <div id="contact">
         <Contact />
       </div>
-      <Calls />
     </>
   );
 };
