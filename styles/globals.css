@@ -27,3 +27,14 @@
   border-radius: 10px;
   margin: 3rem 0;
 }
+.about-bg-image {
+  background-image: linear-gradient(
+      0deg,
+      rgba(28, 28, 31, 0.8),
+      rgba(22, 23, 24, 0.8)
+    ),
+    url(../public/AboutAssets/AboutHero.jpg);
+  height: 80vh;
+  background-position: center;
+  background-size: cover;
+}
