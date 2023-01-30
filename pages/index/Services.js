@@ -33,7 +33,7 @@ const Services = () => {
                             <snap className="text-gray-700 text-lg font-bold my-1">Washing Machine Repaire service</snap>
                             <p className='text-gray-700 text-sm leading-4'>We Provide you a very quick and relaible Washing Machine Repair Service. We are the best in applience repairing in the city</p>
                             <div className="mt-4">
-                                <a href="tel:+923058034549">
+                                <a href="tel:+971567091217">
                                     <button className="bg-blue-500 px-5 py-1 text-white font-medium border-2 border-blue-500">
                                         CALL NOW
                                     </button>
@@ -59,7 +59,7 @@ const Services = () => {
                             <snap className="text-gray-700 text-lg font-bold my-1">Dishwasher Repaire service</snap>
                             <p className='text-gray-700 text-sm leading-4'>We Provide you a very quick and relaible Washing Machine Repair Service. We are the best in applience repairing in the city</p>
                             <div className="mt-4">
-                                <a href="tel:+923058034549">
+                                <a href="tel:+971567091217">
                                     <button className="bg-blue-500 px-5 py-1 cursor-pointer text-white font-medium border-2 border-blue-500">
                                         CALL NOW
                                     </button>
@@ -85,7 +85,7 @@ const Services = () => {
                             <snap className="text-gray-700 text-lg font-bold my-1">Dryer Machine Repaire service</snap>
                             <p className='text-gray-700 text-sm leading-4'>We Provide you a very quick and relaible Washing Machine Repair Service. We are the best in applience repairing in the city</p>
                             <div className="mt-4">
-                                <a href="tel:+923058034549">
+                                <a href="tel:+971567091217">
                                     <button className="bg-blue-500 px-5 py-1 cursor-pointer text-white font-medium border-2 border-blue-500">
                                         CALL NOW
                                     </button>

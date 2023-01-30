@@ -56,12 +56,12 @@ const Contact = () => {
             <div className="flex py-2 item-center  bg-blue-600 border text-gray-300 rounded-sm pl-3 my-1">
               <EmailIcon />
               <span className="ml-4 font-semibold">
-                hamzafaham111@gmail.com
+                repairkitchenappliance@gmail.com
               </span>
             </div>
             <div className="flex py-2 items-center bg-blue-600  borde text-gray-300  rounded-sm pl-3 my-1">
               <ContactPhoneIcon />
-              <span className="ml-4 font-semibold">03169650686</span>
+              <span className="ml-4 font-semibold">+971 56 709 1217</span>
             </div>
             <div className="flex py-2 items-center bg-blue-600  borde text-gray-300  rounded-sm pl-3 my-1">
               <LocationOnIcon />

@@ -27,7 +27,7 @@ const HeroSection = () => {
                     your appliances back to working order as soon as possible.
                 </p>
                 <div className="mt-4">
-                    <a href="tel:+923058034549">
+                    <a href="tel:+971567091217">
                         <button className="bg-blue-500 px-5 py-1 text-white font-medium border-2 border-blue-500">
                             CALL NOW
                         </button>
