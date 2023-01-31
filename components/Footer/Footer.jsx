@@ -56,28 +56,7 @@ const Footer = () => {
                   <h6 className="text-lg font-bold text-gray-100 dark:text-gray-200">
                     About Us
                   </h6>
-                  {/* <ul className="mt-4 list-inside space-y-4">
-                    <li>
-                      <a href="/" className="transition hover:text-primary">
-                        About
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/" className="transition hover:text-primary">
-                        Customers
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/" className="transition hover:text-primary">
-                        Enterprise
-                      </a>
-                    </li>
-                    <li>
-                      <a href="/" className="transition hover:text-primary">
-                        Partners
-                      </a>
-                    </li>
-                  </ul> */}
+
                   <p className="leading-4">
                     Our appliance repair service is quick and reliable. We
                     understand the importance of getting your broken appliances
@@ -144,13 +123,13 @@ const Footer = () => {
                     </li>
                     <li>
                       <a href="/" className="transition hover:text-primary">
-                        <span className="font-extrabold">8.</span> Emirates
+                        <span className="font-extrabold">6.</span> Emirates
                         Hills
                       </a>
                     </li>
                     <li>
                       <a href="/" className="transition hover:text-primary">
-                        <span className="font-extrabold">9.</span> The Villa
+                        <span className="font-extrabold">7.</span> The Villa
                       </a>
                     </li>
                   </ul>
@@ -162,20 +141,22 @@ const Footer = () => {
                   <ul className=" list-inside space-y-1">
                     <li>
                       <a
-                        href="tel:+243996660436"
+                        href="tel:+971567091217"
                         className="transition hover:text-primary"
                       >
                         <ContactPhoneIcon />
-                        <span className="ml-2">+923058034549</span>
+                        <span className="ml-2">+971 56 709 1217</span>
                       </a>
                     </li>
                     <li>
                       <a
-                        href="mailto:meschacirung@gmail.com"
+                        href="mailto:repairkitchenappliance@gmail.com"
                         className="transition hover:text-primary"
                       >
                         <EmailIcon />
-                        <span className="ml-2">contact@tailus.com</span>
+                        <span className="ml-2">
+                          repairkitchenappliance@gmail.com
+                        </span>
                       </a>
                     </li>
                     <li>

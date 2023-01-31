@@ -63,18 +63,25 @@ const Contact = () => {
               <ContactPhoneIcon />
               <span className="ml-4 font-semibold">+971 56 709 1217</span>
             </div>
-            <div className="flex py-2 items-center bg-blue-600  borde text-gray-300  rounded-sm pl-3 my-1">
+            {/* <div className="flex py-2 items-center bg-blue-600  borde text-gray-300  rounded-sm pl-3 my-1">
               <LocationOnIcon />
               <span className="ml-4 font-semibold w-3/5 leading-none">
                 Sector C DHA Phase 6, Lahore, Pakistan
               </span>
-            </div>
+            </div> */}
             <div className="flex items-center rounded-sm mt-1">
-              <iframe
+              {/* <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3403.1881289815296!2d74.44043585009038!3d31.464010656980967!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x391908dd6138ade3%3A0xa6cc469044e1fbc1!2sLahore%20Garrison%20University.!5e0!3m2!1sen!2s!4v1672567860854!5m2!1sen!2s"
                 style={{ border: 0 }}
                 width="100%"
                 height="135"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe> */}
+              <iframe src="https://www.google.com/maps/d/u/4/embed?mid=1_okRhmtBRFpedgrh96ti-NPFaqeecTA&ehbc=2E312F"
+                width="100%"
+                height="200"
                 allowfullscreen=""
                 loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"

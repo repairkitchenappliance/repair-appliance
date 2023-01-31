@@ -7,6 +7,7 @@ import HomeWorkOutlinedIcon from '@mui/icons-material/HomeWorkOutlined';
 import { Link } from "react-scroll";
 import Links from 'next/link';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
+import Counters from '../index/Counters'
 const About = () => {
     return (
         <>
@@ -126,9 +127,10 @@ const About = () => {
                     </a>
                 </div>
             </div> */}
-            <div to="schedule" className='bg-blue-100'>
+            {/* <div to="schedule" className='bg-blue-100'>
                 <Schedule />
-            </div>
+            </div> */}
+            <Counters />
             <Links
                 href="/"
             >
