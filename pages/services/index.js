@@ -1,13 +1,13 @@
 import Image from 'next/image';
 import React from 'react'
-import Data from './data'
+// import Data from './data'
 import Links from 'next/link';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 
 import { Link } from 'react-scroll';
 const index = () => {
-    const data = Data()
-    console.log(data);
+    // const data = Data()
+    // console.log(data);
     return (<>
         <div className="flex items-center justify-between flex-col-reverse md:flex-row  mx-6 sm:mx-8 md:mx-20 py-20">
             <div className="md:w-2/4 flex flex-col mt-3 md:mt-0">
