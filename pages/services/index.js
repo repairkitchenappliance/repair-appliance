@@ -5,7 +5,6 @@ import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 
 import { Link } from 'react-scroll';
 const index = () => {
-
     return (<>
         <div className="flex items-center justify-between flex-col-reverse md:flex-row  mx-6 sm:mx-8 md:mx-20 py-20">
             <div className="md:w-2/4 flex flex-col mt-3 md:mt-0">
