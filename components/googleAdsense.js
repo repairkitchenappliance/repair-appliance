@@ -3,11 +3,15 @@ import React from 'react';
 const GoogleAdsense = () => {
     return (
         <>
-            <script
-                data-ad-client={`ca-pub-${process.env.GOOGLE_ADSENSE_TRACKING_ID}`}
-                async
-                src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
-            />
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-R1QHG28LBD">
+            </script>
+            <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments)}
+                gtag('js', new Date());
+
+                gtag('config', 'G-R1QHG28LBD');
+            </script>
         </>
     );
 };
