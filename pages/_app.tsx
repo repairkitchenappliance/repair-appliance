@@ -11,10 +11,10 @@ function MyApp({ Component, pageProps }: AppProps) {
     <div>
       <Head>
         <title>Quick Repair</title>
+        <GoogleAdsense />
       </Head>
       <Navbar />
       <Component {...pageProps} />
-      <GoogleAdsense />
       <Analytics />
       <Calls />
       <Footer />
