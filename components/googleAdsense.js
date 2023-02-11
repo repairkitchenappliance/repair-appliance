@@ -9,7 +9,6 @@ const GoogleAdsense = () => {
                 window.dataLayer = window.dataLayer || [];
                 function gtag(){dataLayer.push(arguments)}
                 gtag('js', new Date());
-
                 gtag('config', 'G-R1QHG28LBD');
             </script>
         </>
