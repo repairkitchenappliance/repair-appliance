@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar/Navbar";
 import Footer from "../components/Footer/Footer";
 import Head from "next/head";
 import Calls from "../pages/index/Calls";
+import { Analytics } from "@vercel/analytics/react";
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <div>
@@ -12,6 +13,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       </Head>
       <Navbar />
       <Component {...pageProps} />
+      <Analytics />
       <Calls />
       <Footer />
     </div>
