@@ -5,6 +5,7 @@ import Footer from "../components/Footer/Footer";
 import Head from "next/head";
 import Calls from "../pages/index/Calls";
 import { Analytics } from "@vercel/analytics/react";
+import GoogleAdsense from "../components/googleAdsense";
 function MyApp({ Component, pageProps }: AppProps) {
   return (
     <div>
@@ -13,6 +14,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       </Head>
       <Navbar />
       <Component {...pageProps} />
+      <GoogleAdsense />
       <Analytics />
       <Calls />
       <Footer />
