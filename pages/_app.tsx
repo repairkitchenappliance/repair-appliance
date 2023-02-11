@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }: AppProps) {
       </Head>
       <Navbar />
       <Component {...pageProps} />
-      {/* <Analytics /> */}
+      <Analytics />
       <Calls />
       <Footer />
     </div>
