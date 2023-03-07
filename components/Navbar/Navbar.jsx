@@ -1,6 +1,10 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-scroll";
 import Image from "next/image";
+import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import InstagramIcon from "@mui/icons-material/Instagram";
+import ContactPhoneIcon from "@mui/icons-material/ContactPhone";
 const Navbar = () => {
   const [navbar, setNavbar] = useState(false);
 
@@ -21,7 +25,23 @@ const Navbar = () => {
 
   return (
     <div>
-      <nav className="border w-full bg-white py-4 fixed justify-center items-center shadow-md navbar z-50">
+      <nav className="border w-full bg-white fixed pb-4 justify-center items-center shadow-md navbar z-50">
+        <div className="flex justify-between pb-2 md:flex mx-6 sm:mx-8 md:mx-20">
+          {/* <div className="w-full flex items-center">
+            <FacebookOutlinedIcon className="text-black mr-2" />
+            <TwitterIcon className="text-black mr-2" />
+            <InstagramIcon className="text-black mr-2" />
+          </div> */}
+          <div className="w-full py-4 bg-blue-500 flex justify-center rounded-bl-full items-center">
+            <ContactPhoneIcon className="text-white mr-3" />
+            <a
+              href="tel:+971567091217"
+              className="text-2xl font-bold text-white pr-5"
+            >
+              +971567091217
+            </a>
+          </div>
+        </div>
         <div className="justify-between md:items-center md:flex mx-6 sm:mx-8 md:mx-20">
           <div>
             <div className="flex items-center justify-between md:block">
