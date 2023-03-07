@@ -123,7 +123,7 @@ const Navbar = () => {
                     SERVICES
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link
                     to="brands"
                     smooth={true}
@@ -131,7 +131,7 @@ const Navbar = () => {
                   >
                     BRANDS
                   </Link>
-                </li>
+                </li> */}
                 <li>
                   <Link
                     to="contact"
@@ -143,10 +143,11 @@ const Navbar = () => {
                 </li>
                 <li className="">
                   <Link
-                    href="#"
+                    to="privacyPolicy"
+                    smooth={true}
                     className="text-white bg-blue-500 hover:bg-blue-600 transition px-4 py-2 cursor-pointer md:ml-12 text-nowrap"
                   >
-                    CHECK AVALABILITY
+                    Privacy Polisy
                   </Link>
                 </li>
               </ul>

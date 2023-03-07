@@ -9,7 +9,7 @@ import Schedule from "../pages/index/Schedule";
 import Testemonial from "../pages/index/Testemonial";
 import Counter from "../pages/index/Counters";
 import Contact from "../pages/index/Contact";
-
+import PrivacyPolicy from "../pages/index/PrivacyPolicy";
 const Home: NextPage = () => {
   return (
     <>
@@ -23,9 +23,9 @@ const Home: NextPage = () => {
         <Server />
       </div>
       <WhyUs />
-      <div id="brands">
+      {/* <div id="brands">
         <Brands />
-      </div>
+      </div> */}
       <div id="schedule">
         <Schedule />
       </div>
@@ -33,6 +33,9 @@ const Home: NextPage = () => {
       <Counter />
       <div id="contact">
         <Contact />
+      </div>
+      <div id="privacyPolicy">
+        <PrivacyPolicy />
       </div>
     </>
   );

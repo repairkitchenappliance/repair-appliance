@@ -134,7 +134,7 @@ const About = () => {
             <Links
                 href="/"
             >
-                <span className='fixed top-20 bg-white border shadow-sm'><ArrowBackIcon className="text-4xl" /></span>
+                <span className='fixed top-20 z-50 bg-white border shadow-sm'><ArrowBackIcon className="text-4xl" /></span>
             </Links>
 
         </>

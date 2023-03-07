@@ -189,7 +189,7 @@ const Footer = () => {
                     </li>
                   </ul>
                 </div>
-                <div className="col-span-2 sm:col-span-3 md:col-span-2">
+                {/* <div className="col-span-2 sm:col-span-3 md:col-span-2">
                   <h6 className="text-lg font-bold text-gray-100 dark:text-gray-200">
                     Brands
                   </h6>
@@ -199,7 +199,7 @@ const Footer = () => {
                         href="tel:+243996660436"
                         className="transition hover:text-primary p-2"
                       >
-                        {/* <ContactPhoneIcon /> */}
+               
                         <Image
                           src="/BrandsAssets/Mieli.png"
                           height={100}
@@ -212,7 +212,7 @@ const Footer = () => {
                         href="tel:+243996660436"
                         className="transition hover:text-primary p-2"
                       >
-                        {/* <ContactPhoneIcon /> */}
+              
                         <Image
                           src="/BrandsAssets/Ariston.png"
                           className="object-cover"
@@ -226,7 +226,7 @@ const Footer = () => {
                         href="tel:+243996660436"
                         className="transition hover:text-primary"
                       >
-                        {/* <ContactPhoneIcon /> */}
+              
                         <Image
                           src="/BrandsAssets/LG.png"
                           height={100}
@@ -239,7 +239,7 @@ const Footer = () => {
                         href="tel:+243996660436"
                         className="transition hover:text-primary p-2"
                       >
-                        {/* <ContactPhoneIcon /> */}
+             
                         <Image
                           src="/BrandsAssets/Bosch.png"
                           height={100}
@@ -252,7 +252,7 @@ const Footer = () => {
                         href="tel:+243996660436"
                         className="transition hover:text-primary p-2"
                       >
-                        {/* <ContactPhoneIcon /> */}
+            
                         <Image
                           src="/BrandsAssets/Siemens.png"
                           height={100}
@@ -261,35 +261,9 @@ const Footer = () => {
                       </a>
                     </li>
                     <li>
-                      {/* <form action>
-                        <label
-                          htmlFor="newsletter"
-                          className="text-lg text-gray-400 dark:text-gray-200"
-                        >
-                          Subscribe to our newsletter
-                        </label>
-                        <div className="relative mt-4">
-                          <input
-                            type="email"
-                            name="newsletter"
-                            id="newsletter"
-                            placeholder="Your email"
-                            className="invalid:outline-none placeholder-gray-600 dark:placeholder-white rounded-3xl w-full bg-gray-100 dark:bg-gray-900 px-4 py-3 ring-1 ring-gray-200 dark:ring-gray-700 invalid:ring-red-400"
-                          />
-                          <button
-                            type="submit"
-                            title="Submit"
-                            className="absolute right-0 w-max  rounded-r-3xl bg-gray-300 hover:bg-gray-400 py-3 px-6 text-center transition"
-                          >
-                            <span className="font-semibold text-gray-900">
-                              Send
-                            </span>
-                          </button>
-                        </div>
-                      </form> */}
                     </li>
                   </ul>
-                </div>
+                </div> */}
               </div>
               <div className="flex justify-center border-t border-cyan-800 py-8 text-gray-200">
                 <a href="https://hamzafaham.com">© hamzafaham 2023</a>
