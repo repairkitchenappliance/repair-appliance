@@ -32,7 +32,7 @@ const About = () => {
                         appliances are running smoothly and efficiently, so you can enjoy a functional and comfortable kitchen
                     </p>
                     <div className="mt-4">
-                        <a href="tel:+923058034549">
+                        <a href="tel:+971568798195">
                             <button className="bg-blue-500 px-5 py-1 text-white font-medium border-2 border-blue-500">
                                 CALL NOW
                             </button>
@@ -102,7 +102,7 @@ const About = () => {
                         appliances are running smoothly and efficiently, so you can enjoy a functional and comfortable kitchen
                     </p>
                     <div className="mt-4">
-                        <a href="tel:+923058034549">
+                        <a href="tel:+971568798195">
                             <button className="bg-blue-500 px-5 py-1 text-white font-medium border-2 border-blue-500">
                                 CALL NOW
                             </button>
@@ -120,7 +120,7 @@ const About = () => {
             {/* <div className='mx-6 sm:mx-8 mb-14 md:mb-0 md:mx-20'>
                 <div className='about-bg-image flex flex-col items-center justify-center'>
                     <h1 className='text-2xl md:text-4xl font-extrabold capitalize md:w-3/4 text-center text-white mb-8'>you need to fix your kitchen appliacne by our reliable and quick service then call us.</h1>
-                    <a href="tel:+923058034549">
+                    <a href="tel:+971568798195">
                         <button className="bg-blue-500 px-5 py-1 text-white font-medium border-2 border-blue-500">
                             CALL NOW
                         </button>

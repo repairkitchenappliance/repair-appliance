@@ -24,7 +24,7 @@ const AboutSection = () => {
                     appliances are running smoothly and efficiently, so you can enjoy a functional and comfortable kitchen
                 </p>
                 <div className="mt-4">
-                    <a href="tel:+923058034549">
+                    <a href="tel:+971568798195">
                         <button className="bg-blue-500 px-5 py-1 text-white font-medium border-2 border-blue-500">
                             CALL NOW
                         </button>
