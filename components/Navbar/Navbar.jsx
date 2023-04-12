@@ -35,10 +35,10 @@ const Navbar = () => {
           <div className="w-full py-4 bg-blue-500 flex justify-center rounded-bl-full items-center">
             <ContactPhoneIcon className="text-white mr-3" />
             <a
-              href="tel:+971567091217"
+              href="tel:+9710568798195"
               className="text-2xl font-bold text-white pr-5"
             >
-              +971567091217
+              +9710568798195
             </a>
           </div>
         </div>
